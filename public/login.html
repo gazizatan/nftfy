@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTify - Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Login with MetaMask</h2>
+            <button id="loginButton">Connect MetaMask</button>
+            <p id="status"></p>
+
+            <h3>Profile Setup</h3>
+            <input type="text" id="username" placeholder="Enter your name">
+            <input type="file" id="profilePic" accept="image/*">
+            <img id="profilePreview" src="" alt="Profile Preview" style="display:none; width:100px; height:100px; border-radius:50%;">
+
+            <button id="saveProfile">Save Profile</button>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
